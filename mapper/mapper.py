@@ -13,3 +13,4 @@ class Mapper:
     def request_to_entity(user: UserRequest):
         return User(login=user.login, password=user.password, is_active=False, email=user.email,
                     full_name=user.full_name, role=user.role)
+

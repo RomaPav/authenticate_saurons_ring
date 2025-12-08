@@ -4,6 +4,7 @@ from http import HTTPStatus
 from fastapi import HTTPException, status, Depends, APIRouter
 from fastapi.security import OAuth2PasswordRequestForm
 
+
 from dto.user_request import UserRequest
 from enums.role import UserRole
 from repository.user_repository import UserRepository

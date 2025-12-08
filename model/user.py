@@ -18,3 +18,4 @@ class User(Base):
 
 
 User.metadata.create_all(bind=engine)
+

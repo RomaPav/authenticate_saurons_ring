@@ -2,6 +2,7 @@ from database.database import SessionLocal
 from model.user import User
 
 
+
 class UserRepository:
     def __init__(self):
         self.db = SessionLocal()

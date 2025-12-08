@@ -1,6 +1,7 @@
 from enums.role import UserRole
 
 
+
 class UserResponse:
     def __init__(self, login: str, password: str, full_name: str, email: str, token: str, role: UserRole):
         self._login = login

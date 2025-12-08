@@ -17,6 +17,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
 
+
 class UserService:
     def __init__(self, user_repository: UserRepository):
         self._user_repository = user_repository

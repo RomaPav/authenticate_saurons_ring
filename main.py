@@ -22,6 +22,7 @@ app.add_middleware(
 app.include_router(router, prefix="/users")
 
 
+
 @app.get("/")
 async def read_root():
     return {"message": "Welcome to my API!"}

@@ -3,6 +3,7 @@ from pydantic import BaseModel
 from enums.role import UserRole
 
 
+
 class UserRequest(BaseModel):
     login: str
     password: str
